@@ -7,7 +7,7 @@ newElement.className = "special-announcement";
 
 const targetDiv = document.querySelector(".main");
 if (targetDiv) {
-  targetDiv.appendChild(newElement);
+  targetDiv.prepend(newElement);
 } else {
   console.error('The div with class "main" was not found.');
 }
