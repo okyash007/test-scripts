@@ -1,0 +1,1 @@
+Shopify.sheckout.OrderStatus.addContentBox(`tailboost`)
