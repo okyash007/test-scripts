@@ -16,7 +16,7 @@ if (targetDiv) {
   console.error('The div with class "main" was not found.');
 }
 
-export async function add() {
+async function add() {
   const options = {
     method: "GET",
     credentials: "include",
