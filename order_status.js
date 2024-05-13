@@ -5,7 +5,7 @@ newElement.innerHTML =
   "<h3>Special Announcement</h3><p>This is a special promotion just for you!</p>";
 newElement.className = "special-announcement";
 
-const targetDiv = document.querySelector(".main");
+const targetDiv = document.querySelector(".section__content");
 if (targetDiv) {
   targetDiv.appendChild(newElement);
 } else {
