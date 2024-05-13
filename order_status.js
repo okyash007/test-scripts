@@ -1,1 +1,1 @@
-Shopify.sheckout.OrderStatus.addContentBox(`tailboost`)
+Shopify.Checkout.OrderStatus.addContentBox(`tailboost`)
