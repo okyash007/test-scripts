@@ -2,7 +2,7 @@ var tbShop = typeof Shopify !== 'undefined' ? Shopify.shop : document.domain;
 
 var tbShopDomain = document.domain;
 
-var tbBasePath = 'https://' + tbShopDomain + '/a/tboost/';
+var tbBasePath = 'https://' + tbShopDomain + '/apps/proxy/';
 var tbHead = document.getElementsByTagName('head')[0];
 var tbUserInfo = localStorage.getItem('tailboostUser');
 var tbUserAgent = window.navigator.userAgent;
