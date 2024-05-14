@@ -6,14 +6,19 @@ async function hit() {
       "&ip=" +
       ipData.ip +
       "&current_url=" +
-      window.location.href
+      window.location.href,
+    {
+      headers: {
+        Accept: "text/html",
+      },
+    }
   );
 
   const newElement = document.createElement("div");
 
   newElement.innerHTML = await data.text();
 
-  newElement.className = "special-announcement";
+  newElement.className = "special-announcement-2";
 
   const targetDiv = document.querySelector(".main");
   if (targetDiv) {
