@@ -21,8 +21,6 @@ async function hit() {
     window.location.origin +
       "/apps/proxy/?shop=" +
       window.location.host +
-      "&ip=" +
-      ipData.ip +
       "&current_url=" +
       window.location.href,
     {
